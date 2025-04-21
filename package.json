@@ -1,0 +1,45 @@
+{
+  "name": "tokyo-storm",
+  "displayName": "Tokyo Storm",
+  "description": "A clean dark and light theme based on Tokyo Night Storm",
+  "version": "0.0.1",
+  "publisher": "RaySinner",
+  "license": "MIT",
+  "icon": "./images/tokyo-icon-128.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RaySinner/TokyoNightStorm-Csharp"
+  },
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "tokyo night",
+    "color theme",
+    "light theme" 
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tokyo Storm Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-storm-dark.json"
+      },
+      {
+        "label": "Tokyo Storm Light", 
+        "uiTheme": "vs",
+        "path": "./themes/tokyo-storm-light.json" 
+      }
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/vscode": "^1.84.0",
+    "@vscode/vsce": "^2.24.0"
+  }
+}
